@@ -1,0 +1,4 @@
+colorama
+tabulate
+matplotlib
+reportlab

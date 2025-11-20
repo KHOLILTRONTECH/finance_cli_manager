@@ -1,0 +1,30 @@
+2025-11-17 23:09:03,850 INFO  Add: amount=20000.0 category=test date=2025-01-01
+2025-11-17 23:41:56,436 INFO  Exported CSV: backup.csv
+2025-11-17 23:49:58,490 INFO  Imported CSV: data.csv, total=2
+2025-11-17 23:52:03,032 INFO  List command executed
+2025-11-17 23:58:40,253 INFO  Deleted transaction ID: 3
+2025-11-17 23:58:47,630 INFO  List command executed
+2025-11-18 00:00:50,796 INFO  Updated transaction ID=1 amount=25000.0, category=makan, date=2025-01-01
+2025-11-18 00:01:16,099 INFO  Updated transaction ID=1 amount=25000.0, category=makan, date=2025-01-10
+2025-11-18 00:01:22,735 INFO  List command executed
+2025-11-18 00:05:54,277 INFO  Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-11-18 00:05:54,279 INFO  Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-11-18 00:05:54,391 INFO  Generated graphic at graphs/report.png
+2025-11-18 00:10:49,003 INFO  List command executed
+2025-11-18 00:11:07,011 INFO  Summary command executed with params=Namespace(command='summary', tanggal=None, mulai=None, akhir=None, func=<function run_summary at 0x000001DBA1C98400>)
+2025-11-18 00:15:35,646 INFO  Add: amount=15000.0 category=minum date=2025-01-05
+2025-11-18 00:15:54,624 INFO  Add: amount=50000.0 category=lainnya date=2025-01-05
+2025-11-18 00:16:17,742 INFO  List command executed
+2025-11-18 00:24:41,583 INFO  List command executed
+2025-11-18 00:27:04,913 INFO  Add: amount=15000.0 category=minum date=2025-01-05
+2025-11-18 00:27:13,455 INFO  List command executed
+2025-11-18 00:29:09,800 INFO  Add: amount=15000.0 category=lainnya date=2025-11-18
+2025-11-18 00:29:15,962 INFO  List command executed
+2025-11-18 00:33:11,921 INFO  List command executed
+2025-11-18 00:40:21,888 INFO  List command executed
+2025-11-18 00:41:22,475 INFO  Deleted transaction ID: 4
+2025-11-18 00:41:28,152 INFO  List command executed
+2025-11-18 00:44:12,328 INFO  Generated PDF report: reports/laporan_2025-11-18_00-44-12.pdf
+2025-11-18 00:59:34,563 INFO  Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-11-18 00:59:34,564 INFO  Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-11-18 00:59:34,655 INFO  Generated graphic at graphs/report.png
