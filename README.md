@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/banner.png" width="100%"></p>
 <h1 align="center">💰 Aplikasi Pengelola Keuangan Harian (CLI + SQLite)</h1> <p align="center"> <img src="https://img.shields.io/badge/Python-3.10+-blue"> <img src="https://img.shields.io/badge/SQLite-Database-green"> <img src="https://img.shields.io/badge/CLI-Application-orange"> <img src="https://img.shields.io/badge/Status-Active-success"> </p> <p align="center"> Aplikasi CLI modern untuk mencatat transaksi keuangan, lengkap dengan dashboard, grafik, AI kategori otomatis, backup otomatis, dan laporan PDF. </p>
 📸 Preview UI CLI
-<p align="center"> <img src="image.png" width="80%"> </p>
+<p align="center"> <img src="image.png" width="40%"> </p>
 🚀 Fitur Utama
 Fitur	Deskripsi
 📥 Tambah Transaksi	Input cepat + deskripsi + tanggal
@@ -26,10 +26,10 @@ python main.py filter --mulai 2025-01-01 --akhir 2025-01-31
 📈 Grafik
 python main.py graph
 
-<p align="center"> <img src="assets/graph_preview.png" width="70%"> </p>
+<p align="center"> <img src="grap.png" width="30%"> </p>
 🗂 Struktur Folder
-project/
-│── assets/               # gambar banner, preview
+```txt
+📁 project/
 │── commands/
 │── utils/
 │── backup/
@@ -39,6 +39,8 @@ project/
 │── main.py
 │── requirements.txt
 │── README.md
+```
+
 
 ⚙️ Instalasi
 1. Buat virtual environment
