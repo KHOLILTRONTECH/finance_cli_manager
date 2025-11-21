@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" width="100%">
+  <img src="Screenshot 2025-11-21 104934.png" width="80%">
 </p>
 
 <h1 align="center">💰 Aplikasi Pengelola Keuangan Harian (CLI + SQLite)</h1>
@@ -19,7 +19,7 @@
 
 ## 📸 Preview UI CLI
 <p align="center">
-  <img src="image.png" width="40%">
+  <img src="image.png" width="50%">
 </p>
 
 ---
@@ -67,7 +67,7 @@ yaml
 Copy code
 
 <p align="center">
-  <img src="grap.png" width="30%">
+  <img src="grap.png" width="60%">
 </p>
 
 ---
@@ -84,6 +84,7 @@ Copy code
 │── main.py
 │── requirements.txt
 │── README.md
+
 ⚙️ Instalasi
 1. Buat virtual environment
 nginx
