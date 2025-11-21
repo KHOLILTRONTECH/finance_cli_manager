@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Screenshot 2025-11-21 104934.png" width="80%">
+  <img src="Screenshot 2025-11-21 104934.png" width="50%">
 </p>
 
 <h1 align="center">💰 Aplikasi Pengelola Keuangan Harian (CLI + SQLite)</h1>
