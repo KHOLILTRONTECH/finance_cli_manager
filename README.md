@@ -12,14 +12,22 @@
 </p>
 
 <p align="center">
-  Aplikasi CLI modern untuk mencatat transaksi keuangan, lengkap dengan dashboard, grafik, AI kategori otomatis, backup otomatis, dan laporan PDF.
+  Aplikasi CLI modern untuk mencatat transaksi keuangan, lengkap dengan dashboard, grafik pengeluaran, AI kategori otomatis,
+  backup otomatis, import/export CSV, PIN keamanan, dan laporan PDF.
+</p>
+
+---
+
+## 🎬 Video Presentasi
+<p align="center">
+  👉 <a href="https://youtu.be/1W2tmPaFEys?si=cnNEt1nz7DuWP4cJ" target="_blank"><b>Tonton Presentasi di YouTube</b></a> 👈
 </p>
 
 ---
 
 ## 📸 Preview UI CLI
 <p align="center">
-  <img src="image.png" width="50%">
+  <img src="image.png" width="55%">
 </p>
 
 ---
@@ -28,80 +36,87 @@
 
 | Fitur | Deskripsi |
 |------|-----------|
-| 📥 **Tambah Transaksi** | Input cepat + deskripsi + tanggal |
-| 📊 **Dashboard** | Ringkasan harian, mingguan, bulanan |
-| 🔎 **Filter Tanggal** | Tanggal tertentu atau rentang |
-| 📁 **Import / Export CSV** | Untuk backup & migrasi data |
-| 📈 **Grafik Pengeluaran** | Matplotlib otomatis simpan PNG |
-| 🤖 **AI Kategori Otomatis** | Menebak kategori dari deskripsi |
-| 🔐 **PIN Security** | Melindungi akses list |
-| 📑 **PDF Report** | Laporan siap print |
-| 💾 **Auto Backup** | Backup harian + auto clean 7 hari |
+| 📥 **Tambah Transaksi** | Input cepat + kategori + deskripsi + tanggal |
+| 📊 **Dashboard Lengkap** | Ringkasan harian, mingguan, bulanan & top kategori |
+| 🔎 **Filter Tanggal** | Filter tanggal tertentu atau rentang |
+| 📁 **Import / Export CSV** | Backup dan migrasi data sangat mudah |
+| 📈 **Grafik Pengeluaran** | Grafik otomatis tersimpan sebagai PNG |
+| 🤖 **AI Kategori Otomatis** | Mendeteksi kategori dari deskripsi |
+| 🔐 **PIN Security** | Melindungi akses perintah list |
+| 📑 **PDF Report** | Laporan keuangan dalam format PDF |
+| 💾 **Auto Backup Database** | Backup harian & auto clean backup > 7 hari |
 
 ---
 
-## 🧭 Demo Perintah
+## 🧭 Contoh Perintah CLI
 
 ### ➕ Tambah Transaksi
+```sh
 python main.py add 15000 jajan 2025-01-02 -d "beli snack"
-
-shell
+📋 Dashboard (List Transaksi)
+sh
 Copy code
-
-### 📋 Dashboard
 python main.py list
-
-shell
+🎯 Filter Transaksi
+sh
 Copy code
-
-### 🎯 Filter Transaksi
 python main.py filter --mulai 2025-01-01 --akhir 2025-01-31
-
-shell
+📈 Grafik Pengeluaran
+sh
 Copy code
-
-### 📈 Grafik
 python main.py graph
-
-yaml
+<p align="center"> <img src="grap.png" width="60%"> </p>
+📥 Import CSV
+sh
 Copy code
-
-<p align="center">
-  <img src="grap.png" width="60%">
-</p>
-
----
-
-## 🗂 Struktur Folder
-```txt
+python main.py import data.csv
+📤 Export CSV
+sh
+Copy code
+python main.py export output.csv
+📝 PDF Report
+sh
+Copy code
+python main.py laporan
+🗂 Struktur Folder
+txt
+Copy code
 📁 project/
 │── commands/
 │── utils/
 │── backup/
 │── graphs/
 │── reports/
+│── logs/
 │── db.py
 │── main.py
 │── requirements.txt
 │── README.md
-
 ⚙️ Instalasi
-1. Buat virtual environment
-nginx
+1️⃣ Buat virtual environment
+sh
 Copy code
 python -m venv venv
-2. Aktifkan
+2️⃣ Aktifkan environment
 Windows
 
+sh
 Copy code
 venv\Scripts\activate
-3. Install dependency
-nginx
+Linux/MacOS
+
+sh
+Copy code
+source venv/bin/activate
+3️⃣ Install dependencies
+sh
 Copy code
 pip install -r requirements.txt
-4. Jalankan aplikasi
-css
+4️⃣ Jalankan aplikasi
+sh
 Copy code
 python main.py --help
 📄 Lisensi
-Free to use, modify, and redistribute.
+Free to use, modify, and redistribute for educational and personal projects.
+
+<p align="center"><b>Developed by:</b></p> <p align="center"> ALFARIZI MAULANA HIDAYAT (2410631160003) • MUHAMMAD RIFKY DWINOVA AKBAR (2410631160028) • MUHAMMAD KHOLILUR ROHMAN (2410631160079) • HAFIZH HUSNULLABIB ACHMAD (2410631160119) • ADAM FIRMAN </p> <p align="center">🔥 Terima kasih sudah menggunakan aplikasi ini! 🔥</p> ```
