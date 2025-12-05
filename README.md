@@ -17,7 +17,16 @@
 
 ---
 
+## ▶️ Video Presentasi
+
+<p align="center">
+  <a href="https://youtu.be/1W2tmPaFEys?si=cnNEt1nz7DuWP4cJ"><b>👉 Klik di sini untuk menonton video presentasi di YouTube</b></a>
+</p>
+
+---
+
 ## 📸 Preview UI CLI
+
 <p align="center">
   <img src="image.png" width="50%">
 </p>
@@ -26,45 +35,46 @@
 
 ## 🚀 Fitur Utama
 
-| Fitur | Deskripsi |
-|------|-----------|
-| 📥 **Tambah Transaksi** | Input cepat + deskripsi + tanggal |
-| 📊 **Dashboard** | Ringkasan harian, mingguan, bulanan |
-| 🔎 **Filter Tanggal** | Tanggal tertentu atau rentang |
-| 📁 **Import / Export CSV** | Untuk backup & migrasi data |
-| 📈 **Grafik Pengeluaran** | Matplotlib otomatis simpan PNG |
-| 🤖 **AI Kategori Otomatis** | Menebak kategori dari deskripsi |
-| 🔐 **PIN Security** | Melindungi akses list |
-| 📑 **PDF Report** | Laporan siap print |
-| 💾 **Auto Backup** | Backup harian + auto clean 7 hari |
+| Fitur                       | Deskripsi                           |
+| --------------------------- | ----------------------------------- |
+| 📥 **Tambah Transaksi**     | Input cepat + deskripsi + tanggal   |
+| 📊 **Dashboard**            | Ringkasan harian, mingguan, bulanan |
+| 🔎 **Filter Tanggal**       | Tanggal tertentu atau rentang       |
+| 📁 **Import / Export CSV**  | Untuk backup & migrasi data         |
+| 📈 **Grafik Pengeluaran**   | Matplotlib otomatis simpan PNG      |
+| 🤖 **AI Kategori Otomatis** | Menebak kategori dari deskripsi     |
+| 🔐 **PIN Security**         | Melindungi akses list               |
+| 📑 **PDF Report**           | Laporan siap print                  |
+| 💾 **Auto Backup**          | Backup harian + auto clean 7 hari   |
 
 ---
 
 ## 🧭 Demo Perintah
 
 ### ➕ Tambah Transaksi
-python main.py add 15000 jajan 2025-01-02 -d "beli snack"
 
-shell
-Copy code
+```shell
+python main.py add 15000 jajan 2025-01-02 -d "beli snack"
+```
 
 ### 📋 Dashboard
-python main.py list
 
-shell
-Copy code
+```shell
+python main.py list
+```
 
 ### 🎯 Filter Transaksi
-python main.py filter --mulai 2025-01-01 --akhir 2025-01-31
 
-shell
-Copy code
+```shell
+python main.py filter --mulai 2025-01-01 --akhir 2025-01-31
+```
 
 ### 📈 Grafik
-python main.py graph
 
-yaml
-Copy code
+```shell
+data
+python main.py graph
+```
 
 <p align="center">
   <img src="grap.png" width="60%">
@@ -73,6 +83,7 @@ Copy code
 ---
 
 ## 🗂 Struktur Folder
+
 ```txt
 📁 project/
 │── commands/
@@ -84,24 +95,38 @@ Copy code
 │── main.py
 │── requirements.txt
 │── README.md
+```
 
-⚙️ Instalasi
-1. Buat virtual environment
-nginx
-Copy code
+---
+
+## ⚙️ Instalasi
+
+1. **Buat virtual environment**
+
+```shell
 python -m venv venv
-2. Aktifkan
-Windows
+```
 
-Copy code
+2. **Aktifkan** (Windows)
+
+```shell
 venv\Scripts\activate
-3. Install dependency
-nginx
-Copy code
+```
+
+3. **Install dependency**
+
+```shell
 pip install -r requirements.txt
-4. Jalankan aplikasi
-css
-Copy code
+```
+
+4. **Jalankan aplikasi**
+
+```shell
 python main.py --help
-📄 Lisensi
+```
+
+---
+
+## 📄 Lisensi
+
 Free to use, modify, and redistribute.
